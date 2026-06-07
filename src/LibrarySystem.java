@@ -65,8 +65,8 @@ public class LibrarySystem
     {
         System.out.println();
         System.out.println("╭────────────────────────────────╮");
-        System.out.println("│        Raven Hall Library        │");
-        System.out.println("│      Collection Management       │");
+        System.out.println("│        Raven Hall Library      │");
+        System.out.println("│      Collection Management     │");
         System.out.println("╰────────────────────────────────╯");
         System.out.println("[1] Add Book");
         System.out.println("[2] Borrow Book");
