@@ -36,7 +36,7 @@ public class librarySystem
                 }
                 else if (choice == 4)
                 {
-                    searchBookMenu(input, inventory)
+                    searchBookMenu(input, inventory);
                 }
                 else if (choice == 5)
                 {
@@ -59,7 +59,7 @@ public class librarySystem
             }
         }
 
-        input.close():  
+        input.close();  
     }
 
     public static void printMenu() // prints themed menu (going for a dark academia theme)
