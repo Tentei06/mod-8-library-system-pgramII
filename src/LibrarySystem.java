@@ -1,8 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.scanner;
 
-public class librarySystem
+public class LibrarySystem
 {
     public static void main(String[] args) 
     {
@@ -28,7 +27,7 @@ public class librarySystem
                 }
                 else if (choice == 2)
                 {
-                    borrowedBookMenu(input, inventory);
+                    borrowBookMenu(input, inventory);
                 }
                 else if (choice == 3)
                 {

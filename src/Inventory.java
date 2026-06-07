@@ -19,7 +19,7 @@ public class Inventory
         mainInventory.add(book);
     }
 
-    public boolean borrowedBook(int id) // borrows a book by moving it from available inventory to the borrowed books list
+    public boolean borrowBook(int id) // borrows a book by moving it from available inventory to the borrowed books list
     {
         for (Book book : mainInventory)
         {
@@ -64,7 +64,7 @@ public class Inventory
         }
     }
 
-    public void serachByTitle(String title) // search for books using a full or partial title match
+    public void searchByTitle(String title) // search for books using a full or partial title match
     {                                       // search is case-insensitive
         boolean found = false;
 
